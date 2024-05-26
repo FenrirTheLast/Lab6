@@ -115,3 +115,4 @@ print(df.dtypes)
 df = pd.read_csv('dane.csv', header=8, sep=";", decimal='.')
 print(df)
 df.to_csv('plik.csv', index=False)
+
