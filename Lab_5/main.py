@@ -60,3 +60,13 @@ print(a.sum())
 print(a.sum(axis=0))
 print(a.min(axis=1))
 print(a.cumsum(axis=1))
+
+a = np.arange(6).reshape((3, 2))
+print(a)
+for b in a:
+    print(b)
+
+a = np.arange(6).reshape((3, 2))
+print(a)
+for b in a.flat:
+    print(b)
