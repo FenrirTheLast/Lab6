@@ -125,3 +125,4 @@ print(df.iloc[0, 0])
 print(df.loc[0, "Kraj"])
 print(df.at[0, "Kraj"])
 
+lod
