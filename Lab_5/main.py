@@ -47,29 +47,37 @@ print(b)
 print(a.dot(b))
 print(np.dot(a, b))
 
-c = np.array([[1, 5], [2, 6], [7, 4]])
-d = np.array([[2, 5, 4], [4, 3, 1]])
-print(c)
-print(d)
-print(np.dot(c, d))
-print(np.dot(d, c))
+# c = np.array([[1, 5], [2, 6], [7, 4]])
+# d = np.array([[2, 5, 4], [4, 3, 1]])
+# print(c)
+# print(d)
+# print(np.dot(c, d))
+# print(np.dot(d, c))
+#
+# a = np.arange(12).reshape((3, 4))
+# print(a)
+# print(a.sum())
+# print(a.sum(axis=0))
+# print(a.min(axis=1))
+# print(a.cumsum(axis=1))
+#
+# a = np.arange(6).reshape((3, 2))
+# print(a)
+# for b in a:
+#     print(b)
+#
+# a = np.arange(6).reshape((3, 2))
+# print(a)
+# for b in a:
+#     for i in range(len(b)):
+#         print(b[i], end=" ")
+#     print(" ")
 
-a = np.arange(12).reshape((3, 4))
+a = np.arange(6).reshape((3,2))
 print(a)
-print(a.sum())
-print(a.sum(axis=0))
-print(a.min(axis=1))
-print(a.cumsum(axis=1))
-
-a = np.arange(6).reshape((3, 2))
-print(a)
-for b in a:
-    print(b)
-
-a = np.arange(6).reshape((3, 2))
-print(a)
-for b in a:
-    for i in range(len(b)):
-        print(b[i], end=" ")
-    print(" ")
-
+print(a.shape)
+print(type(a.shape))
+for i in range(0, a.shape[0]):
+    for j in range(0, a.shape[1]):
+        print(a[i][j], end=' ')
+    print(' ')
