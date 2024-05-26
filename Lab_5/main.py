@@ -68,5 +68,8 @@ for b in a:
 
 a = np.arange(6).reshape((3, 2))
 print(a)
-for b in a.flat:
-    print(b)
+for b in a:
+    for i in range(len(b)):
+        print(b[i], end=" ")
+    print(" ")
+
