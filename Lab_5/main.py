@@ -112,7 +112,7 @@ data = {'kraj': ['Belgia', 'Indie', 'Brazylia'], 'Stolica': ['Brukselia', 'New D
 df = pd.DataFrame(data)
 print(df)
 print(df.dtypes)
-df = pd.read_csv('dane.csv', header=8, sep=";", decimal='.')
+df = pd.read_csv('dane.csv', header=0, sep=";", decimal='.')
 print(df)
 df.to_csv('plik.csv', index=False)
 
