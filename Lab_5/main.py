@@ -116,3 +116,12 @@ df = pd.read_csv('dane.csv', header=0, sep=";", decimal='.')
 print(df)
 df.to_csv('plik.csv', index=False)
 
+print(s ['c'])
+print(s.c)
+print(df[0:1])
+print("")
+print(df['Populacje'])
+print(df.iloc[0, 0])
+print(df.loc[0, "Kraj"])
+print(df.at[0, "Kraj"])
+
