@@ -98,4 +98,7 @@ print(d)
 print(d.shape)
 print("")
 
+e = b.T
+print(e)
+print(e.shape)
 
